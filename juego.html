@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Juego de la mazmorra</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Rubik+Moonrocks&display=swap"
+      rel="stylesheet"
+    />
+    <script src="js/howler.core.js"></script>
+    <script src="js/howler.spatial.js"></script>
+    <script src="js/global.js"></script>
+    <script src="js/sounds.js"></script>
+    <script src="js/levels.js"></script>
+    <script src="js/antorcha.js"></script>
+    <script src="js/enemigo.js"></script>
+    <script src="js/jugador.js"></script>
+    <script src="js/inicio.js"></script>
+    <link href="css/style.css" rel="stylesheet" />
+  </head>
+
+  <body onload="inicializa()">
+    <main>
+      <div class="row">
+        <div class="col lateral">
+          <img src="assets/pergaminodos.png" class="pergamino-question">
+          <header>Pregunta #1</header>
+          <div class="box-question">
+            <p>¿Que es indexación?</p>
+          </div>
+        </div>
+        <div class="col">
+          <div class="juego">
+            <canvas id="canvas" width="500" height="400"
+          ></canvas>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Instrucciones</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Niconne&display=swap"
+      rel="stylesheet"
+    />
+    <link href="css/style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="fondo-instrucciones">
+      <section class="pergamino">
+        <div class="text-instructions-box-one" id="instOne">
+          <label
+            >Hola talenter, hoy fuiste elegido para una mision especial</label
+          >
+          <button class="next-item-btn" id="nextTwo" onclick="nextOneToTwo()">
+            <img class="icon-next-btn" src="./assets/next.png" />
+          </button>
+        </div>
+
+        <div class="text-instructions-box-two" id="instTwo">
+          <label
+            >Nuestra empresa ha creado un portal en el tiempo, pero algo salio
+            mal
+          </label>
+          <button class="prev-item-btn">
+            <img
+              class="icon-prev-btn"
+              onclick="prevStepOne()"
+              src="./assets/prev.png"
+            />
+          </button>
+          <button class="next-item-btn">
+            <img
+              class="icon-next-btn"
+              onclick="nextTwoToThree()"
+              src="./assets/next.png"
+            />
+          </button>
+        </div>
+
+        <div class="text-instructions-box-three" id="instThree">
+          <label
+            >un hechizo cayo sobre nuestros lideres talent y olvidaron como
+            indexar</label
+          >
+          <button class="prev-item-btn">
+            <img
+              class="icon-prev-btn"
+              onclick="prevStepTwo()"
+              src="./assets/prev.png"
+            />
+          </button>
+          <button class="next-item-btn">
+            <img
+              class="icon-next-btn"
+              onclick="nextThreeToFour()"
+              src="./assets/next.png"
+            />
+          </button>
+        </div>
+
+        <div class="text-instructions-box-four" id="instFour">
+          <label
+            >Todo el conocimiento quedo atrapado en la edad media, en un
+            castillo de un malvado hechicero</label
+          >
+          <button class="prev-item-btn">
+            <img
+              class="icon-prev-btn"
+              onclick="prevStepThree()"
+              src="./assets/prev.png"
+            />
+          </button>
+          <button class="next-item-btn">
+            <img
+              class="icon-next-btn"
+              onclick="nextFourToFive()"
+              src="./assets/next.png"
+            />
+          </button>
+        </div>
+
+        <div class="text-instructions-box-five" id="instFive">
+          <label
+            >tu mision será esta: recuperar el conocimiento y llevarlo a
+            talent.com</label
+          >
+          <button class="prev-item-btn">
+            <img
+              class="icon-prev-btn"
+              onclick="prevStepFour()"
+              src="./assets/prev.png"
+            />
+          </button>
+          <button class="next-item-btn">
+            <img
+              class="icon-next-btn"
+              onclick="nextFiveToSix()"
+              src="./assets/next.png"
+            />
+          </button>
+        </div>
+
+        <div class="text-instructions-box-six" id="instSix">
+          <label
+            >para recuperarlo, deberas ingresar al castillo disfrazado como un
+            ciclope valiente y audaz</label
+          >
+          <button class="prev-item-btn">
+            <img
+              class="icon-prev-btn"
+              onclick="prevStepFive()"
+              src="./assets/prev.png"
+            />
+          </button>
+          <button class="next-item-btn">
+            <img
+              class="icon-next-btn"
+              onclick="nextSixToSeven()"
+              src="./assets/next.png"
+            />
+          </button>
+        </div>
+
+        <div class="text-instructions-box-seven" id="instSeven">
+          <label
+            >lee las preguntas y con las teclas (arriba, abajo, derecha,
+            izquierda) podras moverte por los pasillos del castillo</label
+          >
+          <button class="prev-item-btn">
+            <img
+              class="icon-prev-btn"
+              onclick="prevStepSix()"
+              src="./assets/prev.png"
+            />
+          </button>
+          <button class="next-item-btn">
+            <img
+              class="icon-next-btn"
+              onclick="nextSevenToEight()"
+              src="./assets/next.png"
+            />
+          </button>
+        </div>
+
+        <div class="text-instructions-box-eight" id="instEight">
+          <label
+            >en los pasillos hay varias llaves, recoge una de ellas y si es la
+            correcta, liberas la respuesta correcta, si no el hechicero te
+            descubrira y seras eliminado</label
+          >
+          <button class="prev-item-btn">
+            <img
+              class="icon-prev-btn"
+              onclick="prevStepSeven()"
+              src="./assets/prev.png"
+            />
+          </button>
+          <button class="next-item-btn">
+            <img
+              class="icon-next-btn"
+              onclick="nextEightToNine()"
+              src="./assets/next.png"
+            />
+          </button>
+        </div>
+
+        <div class="text-instructions-box-nine" id="instNine">
+          <label>Suerte aventurero, talent.com cuenta con tu valentia</label>
+          <button class="btn-game-play" onclick="PlayGame()">jugar</button>
+        </div>
+      </section>
+    </div>
+    <script src="js/instrucciones.js"></script>
+  </body>
+</html>

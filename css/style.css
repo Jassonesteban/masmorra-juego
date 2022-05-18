@@ -1,0 +1,353 @@
+@import url(https://fonts.googleapis.com/css?family=Patrick+Hand+SC);
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /*font-family: 'Luckiest Guy', cursive;
+    font-family: 'Rubik Moonrocks', cursive;*/
+}
+
+html {
+    height: 100%;
+}
+
+.body-section-game {
+    height: 927px;
+    background: url(./../assets/castillo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.box-section-welcome {
+    padding: 0%;
+    position: absolute;
+    margin: 0 auto;
+    width: 87%;
+    top: 33%;
+    left: 0;
+    right: 0;
+    height: 500px;
+}
+
+.box-section-welcome h1 {
+    padding: 0%;
+    font-family: 'Luckiest Guy', cursive;
+    color: white;
+    font-size: 531%;
+    letter-spacing: 5px;
+    margin-block-end: 19px;
+    margin-block-start: -28px;
+    -webkit-text-fill-color: white;
+    -webkit-text-stroke: 1px black;
+    box-sizing: content-box;
+    margin: 0;
+}
+
+
+
+.btn-play-game {
+    width: 19%;
+    font-size: 2.4rem;
+    border-radius: 16%;
+    margin-block-start: 19px;
+    background: #786259;
+    border: 8px solid #7c7a7a;
+    color: white;
+    font-family: 'Aclonica';
+    padding: 21px;
+    position: fixed;
+    box-shadow: 6px 6px 15px #786259;
+    top: 50%;
+    left: 11%;
+    right: 0;
+    cursor: pointer;
+}
+
+.box-intrucciones {
+    padding: 1%;
+    position: fixed;
+    top: 71%;
+    left: 15%;
+    right: 0;
+    bottom: 0;
+}
+
+.box-intrucciones a {
+    padding: 0%;
+    color: white;
+    text-decoration: none;
+    font-size: 23px;
+    font-family: 'Aclonica', sans-serif;
+    letter-spacing: 1px;
+    cursor: pointer;
+
+}
+
+.pergamino {
+    height: 739px;
+    background-image: url(./../assets/pergamino.jpg);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+    background-size: 54rem;
+    margin-block-start: 7%;
+}
+
+.text-instructions-box-one {
+    padding: 0%;
+    display: block;
+    position: absolute;
+    top: 40%;
+    width: 29%;
+    left: 0;
+    right: 0;
+    text-align: center;
+    font-size: 3.2rem;
+    font-family: 'Niconne', cursive;
+    margin: 0 auto;
+}
+
+.text-instructions-box-two {
+    padding: 0%;
+    display: none;
+    position: absolute;
+    top: 40%;
+    width: 29%;
+    left: 0;
+    right: 0;
+    text-align: center;
+    font-size: 3.2rem;
+    font-family: 'Niconne', cursive;
+    margin: 0 auto;
+}
+
+.text-instructions-box-three {
+    padding: 0%;
+    display: none;
+    position: absolute;
+    top: 40%;
+    width: 29%;
+    left: 0;
+    right: 0;
+    text-align: center;
+    font-size: 3.2rem;
+    font-family: 'Niconne', cursive;
+    margin: 0 auto;
+}
+
+.text-instructions-box-four {
+    padding: 0%;
+    display: none;
+    position: absolute;
+    top: 33%;
+    width: 29%;
+    left: 0;
+    right: 0;
+    text-align: center;
+    font-size: 3.2rem;
+    font-family: 'Niconne', cursive;
+    margin: 0 auto;
+}
+
+.text-instructions-box-five {
+    padding: 0%;
+    display: none;
+    position: absolute;
+    top: 36%;
+    width: 29%;
+    left: 0;
+    right: 0;
+    text-align: center;
+    font-size: 3.2rem;
+    font-family: 'Niconne', cursive;
+    margin: 0 auto;
+}
+
+.text-instructions-box-six {
+    padding: 0%;
+    display: none;
+    position: absolute;
+    top: 32%;
+    width: 29%;
+    left: 0;
+    right: 0;
+    text-align: center;
+    font-size: 3.2rem;
+    font-family: 'Niconne', cursive;
+    margin: 0 auto;
+}
+
+.text-instructions-box-seven {
+    padding: 0%;
+    display: none;
+    position: absolute;
+    top: 29%;
+    width: 31%;
+    left: 0;
+    right: 0;
+    text-align: center;
+    font-size: 3.2rem;
+    font-family: 'Niconne', cursive;
+    margin: 0 auto;
+}
+
+.text-instructions-box-eight {
+    padding: 0%;
+    display: none;
+    position: absolute;
+    top: 27%;
+    width: 34%;
+    left: 0;
+    right: 0;
+    text-align: center;
+    font-size: 3.2rem;
+    font-family: 'Niconne', cursive;
+    margin: 0 auto;
+}
+
+.text-instructions-box-nine {
+    padding: 0%;
+    display: none;
+    position: absolute;
+    top: 40%;
+    width: 29%;
+    left: 0;
+    right: 0;
+    text-align: center;
+    font-size: 3.2rem;
+    font-family: 'Niconne', cursive;
+    margin: 0 auto;
+}
+
+.icon-next-btn {
+    padding: 0%;
+    width: 56%;
+    text-align: center;
+}
+
+.next-item-btn {
+    padding: 0%;
+    width: 30%;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: none;
+    border: none;
+    cursor: pointer;
+    float: right;
+    margin-block-start: 21%;
+}
+
+.prev-item-btn {
+    padding: 0%;
+    width: 30%;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: none;
+    border: none;
+    cursor: pointer;
+    float: left;
+    margin-block-start: 21%;
+}
+
+.icon-prev-btn {
+    padding: 0%;
+    width: 56%;
+    text-align: center;
+}
+
+.btn-game-play {
+    padding: 1%;
+    width: 41%;
+    display: block;
+    background: #29b729;
+    border: 6px solid #3434c9;
+    border-radius: 10px;
+    text-align: center;
+    justify-content: center;
+    margin: 0 auto;
+    margin-block-start: 39px;
+    font-family: monospace;
+    color: white;
+    font-size: 66%;
+    cursor: pointer;
+}
+
+.row {
+    display: flex;
+}
+
+.lateral {
+    flex: 0 0 434px !important;
+    background-color: #30183F;
+    min-height: calc(100vh);
+    color: rgba(255, 255, 255, .9);
+    z-index: 10;
+    transition: flex 0.4s;
+    position: relative;
+    background: url(./../assets/patron-lateral.jpg);
+}
+
+.row>.col {
+    flex: 100%;
+    overflow: hidden;
+}
+
+.lateral header {}
+
+.juego {
+    padding: 0 10px;
+    height: 100%;
+    background: url(./../assets/patron-juego.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-position: center center;
+    text-align: center;
+}
+
+.juego::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+#canvas {
+    border: 2px solid #000000;
+    margin: 0 auto;
+    position: absolute;
+    top: 17%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 60%;
+    z-index: 10;
+}
+
+.pergamino-question {
+    padding: 0%;
+    position: fixed;
+    width: 21%;
+    margin: 0 auto;
+    float: left;
+    top: 15%;
+    left: 14px;
+}
+
+.fondo-instrucciones {
+    background: url(./../assets/patron-juego.jpg);
+    width: 100%;
+    background-size: cover;
+    position: absolute;
+    height: 929px;
+}

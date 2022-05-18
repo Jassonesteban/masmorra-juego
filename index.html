@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Buscando la respuesta</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Rubik+Moonrocks&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Aclonica&display=swap"
+      rel="stylesheet"
+    />
+
+    <link href="css/style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <audio loop id="audioFondo">
+      <source src="atmosfera_10.ogg" type="audio/ogg">
+      <source src="atmosfera_10.mp3" type="audio/mpeg">
+      <source src="atmosfera_10.wav" type="audio/wav">
+      Your browser does not support the audio element.
+    </audio>
+
+    <section class="body-section-game">
+      <div class="box-section-welcome">
+        <h1>La busqueda</h1>
+        <button class="btn-play-game" type="button" onclick="PlayGame()">
+          JUGAR
+        </button>
+        <div class="box-intrucciones">
+          <a href="instrucciones.html">Instrucciones</a>
+        </div>
+      </div>
+    </section>
+    <script src="js/instrucciones.js"></script>
+
+    <script>
+      const playSound = function() {
+        document.getElementById('audioFondo').play();
+        document.removeEventListener('click', playSound);
+      }
+
+      document.addEventListener('click', playSound);
+    </script>
+  </body>
+</html>
